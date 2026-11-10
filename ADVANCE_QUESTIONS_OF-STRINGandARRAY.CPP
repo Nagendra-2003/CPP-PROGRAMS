@@ -41,7 +41,8 @@ void main()
    getch();
    }
 
-  #include<iostream.h>
+// Take input of string and remove all spaces
+#include<iostream.h>
 #include<conio.h>
 #include<string.h>
 void  main()
@@ -209,70 +210,7 @@ void main()
       }
 
 
- // Print the Diamond Shape pattern with specific sapces in each row
- #include<iostream.h>
- #include<conio.h>
- void main()
- {
-	clrscr();
-	int r,c,sp;
-	for(r=1;r<=3;r++)
-	{
-	for(c=1;c<6;c++)
-	{
-	if(r==1)
-	{
-	cout<<"*"<<" ";
-	continue;
-	}
-	if(r==2 && (c==1 || c==2))
-	{
-	cout<<"*"<<" ";
-	}
-	if(r==3 && c==1)
-	{
-	cout<<"*"<<" ";
-	break;
-	}
-	}
-	for(sp=1;sp<=2*r-2;sp++)
-	{
-	cout<<"  ";
-	}
-	for(c=1;c<=2;c++)
-	{
-	if(r==2 && c==1 || c==2)
-	{
-	 cout<<"*"<<" ";
-	 }
-	if(r==3 && c==1)
-	{
-	cout<<"*"<<" ";
-	break;
-	}
-	}
-	cout<<"\n";
-	}
-
-
-	for(r=1;r<=2;r++)
-	{
-	for(c=1;c<=6;c++)
-	{
-	  if(r==1 && (c==3 ||c==4))
-	  {
-	  cout<<"  ";
-	  continue;
-	  }
-	  cout<<"*"<<" ";
-	  }
-	  cout<<"\n";
-	  }
-
-	  getch();
-	  }
-
-
+ 
 
 // Take input of prime numbers for print and starting point from where you have to prime no and all prime nos are divided into 3 rows where 2 rows have same no of elemets
 #include<iostream.h>
